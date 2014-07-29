@@ -4,120 +4,57 @@
 	-moz-box-sizing: border-box;
 }
 body {
-	padding: 1em;
-	font: 16px/1.5 "Clear Sans", Roboto, "Helvetica Neue", Helvetica, Segoe, Arial, sans-serif;
-	color: #555;
-	font-weight: 300;
-}
-@media screen and (min-width: 650px) {
-  body {
-	  padding-top: 2em;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  body {
-	  padding-top: 3em;
-	  font-size: 19px;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: #222;
-	margin: 0 0 20px;
-}
-p,
-ul,
-ol,
-table,
-pre,
-dl {
-	margin: 0 0 20px;
-}
-a {
-	color: #39c;
+	font: 16px/1.5 "Roboto Condensed", Roboto, "Helvetica Neue", Helvetica, Segoe, Arial, sans-serif;
+	color: #444;
+	background-color: #eee;
 	font-weight: 400;
-	text-decoration: none;
 }
-.wrapper {
-	width: 100%;
-	margin: 0 auto;
-}
-@media screen and (min-width: 700px) {
-  .wrapper {
-	  width: 80%;
-  }
-}
-@media screen and (min-width: 800px) {
-  .wrapper {
-	  width: 90%;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .wrapper {
-	  width: 960px;
-  }
-}
-img {
-	width: 100%;
-	margin: 0 auto;
-}
-@media screen and (min-width: 440px) {
-  img {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 700px) {
-  img {
-    width: 100%;
-  }
-}
-
-strong {
-	color: #222;
-	font-weight: 700;
-}
-/* CUSTOM */
-
-.huge {
-	font-size: 3em;
+.head {
+	font-size: 5em;
 	line-height: 1;
+	font-weight: 900;
+	text-rendering: optimizeLegibility;
+	margin: 0.3em 0 0.5em;
 }
 .subhead {
-  color: #555;
+	font-weight: 400;
+	font-size: 1.6em;
 }
-.container {
-  display: block;
-  margin: 0 auto;
+p {
+	font-size: 1.3em;
 }
-.left {
-  margin-bottom: 2em;
+a {
+	font-weight: 400;
+	text-decoration: none;
+	color: #0039FF;
 }
-
-@media screen and (min-width: 700px) {
-  .container {
-    margin: 0;
-    padding: 0;
-  }
-  .left {
-    float: left;
-    width: 50%;
-    padding-right: 1.5em;
-  }
-  .right {
-    float: right;
-    width: 50%;
+p a {
+	border-bottom: 0.1em solid #0039ff;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+  body {
+		font-size: 18px;
+	}
+	.wrapper {
+	  width: 80%;
+		margin-top: 3em;
   }
 }
-@media screen and (min-width: 1000px) {
-  .avatar {
-	  width: 400px;
-	  margin-top: 1em;
+@media screen and (min-width: 800px) {
+	body {
+		font-size: 20px;
+	}
+	.wrapper {
+		width: 70%;
+		margin-top: 6em;
+	}
+}
+@media screen and (min-width: 1100px) {
+  .wrapper {
+	  width: 770px;
   }
-
 }
