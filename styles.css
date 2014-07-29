@@ -14,9 +14,10 @@ body {
 	line-height: 1;
 	font-weight: 900;
 	text-rendering: optimizeLegibility;
-	margin: 0.3em 0 0.5em;
+	margin: 0.3em 0;
 }
 .subhead {
+	margin-bottom: 1em;
 	font-weight: 400;
 	font-size: 1.6em;
 }
