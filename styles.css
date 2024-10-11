@@ -21,7 +21,7 @@ body {
 	font-weight: 400;
 	font-size: 1.6em;
 }
-p {
+p.about {
 	font-size: 1.3em;
 }
 a {
@@ -35,6 +35,17 @@ p a {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.avatar {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 400px;
+  margin-left: 0px;
 }
 @media screen and (min-width: 500px) {
   body {
@@ -53,9 +64,25 @@ p a {
 		width: 70%;
 		margin-top: 6em;
 	}
+  .container {
+    flex-direction: row;
+  }
+  .avatar {
+    max-width: 200px;
+    margin-left: 20px;
+  }
 }
 @media screen and (min-width: 1100px) {
   .wrapper {
 	  width: 770px;
   }
 }
+.section > h3 {
+  margin-bottom: 0px;
+}
+footer {
+  text-align: center;
+  margin: 5em 0 2em;
+  font-size: 1em;
+}
+
